@@ -1,18 +1,22 @@
-import { defaultTheme } from '@vuepress/theme-default'
+//import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { hopeTheme } from 'vuepress-theme-hope'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: '家常小炒！',
+  description: 'My study notes',
 
-  theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
-
-    navbar: ['/', '/get-started'],
+  theme: hopeTheme({
+  logo: 'https://nuouo-img.oss-cn-shenzhen.aliyuncs.com/img/202407312052865.svg',
+  navbar: ['/', '/get-started'],
   }),
 
-  bundler: viteBundler(),
+	
+	head: [['link', { rel: 'icon', href: 'https://nuouo-img.oss-cn-shenzhen.aliyuncs.com/img/202407312052865.svg' }]],
+ 
+	bundler: viteBundler(),
+	
 })
