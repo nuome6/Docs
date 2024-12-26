@@ -1,33 +1,47 @@
 ---
 home: true
-title: Home
-heroImage: https://vuejs.press/images/hero.png
+title: 首页
+icon: home
+heroImage: https://nuouo-img.oss-cn-shenzhen.aliyuncs.com/img/202407312052865.svg
+heroText: My Study Notes
+tagline: 几乎任何事情都是越做越简单 <br /> 越想越困难 越拖着越想放弃✨
 actions:
-  - text: Get Started
-    link: /getting-started.html
+  - text: 快速上手
+    link: /test/issue240806.md
+    icon: signs-post
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
+  - text: 指南
+    icon: lightbulb
+    link: /zh/guide/
+
+  - text: 案例
+    icon: star
+    link: /zh/demo/
 
 features:
-  - title: S111111111111111
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: V11111111111111111111111
-    details: Enj21212121 themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once 2121212d.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flex
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 《C Primer Plus》
+    icon: fab fa-markdown
+    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
+    link: /zh/guide/markdown/
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - title: 幻灯片页面
+    icon: person-chalkboard
+    details: 添加幻灯片页面以显示你喜欢的内容
+    link: /zh/guide/layout/slides
+
+  - title: 布局增强
+    icon: object-group
+    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
+    link: /zh/guide/layout/
+
+  - title: 浏览量与评论
+    icon: comment-dots
+    details: 配合 Waline 来开启阅读量统计与评论支持
+    link: /zh/guide/feature/comment.html
+
+
+copyright: false
+footer: Copyright © 2024 Nuouo <br/> 黔ICP备2022008523号
 ---
 
-This is the content  page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
