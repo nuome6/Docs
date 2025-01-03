@@ -7,7 +7,7 @@ heroText: My Study Notes
 tagline: 几乎任何事情都是越做越简单 <br /> 越想越困难 越拖着越想放弃✨
 actions:
   - text: 快速上手
-    link: /test/issue240806.md
+    link: /test/readme.md
     icon: signs-post
     type: primary
 
